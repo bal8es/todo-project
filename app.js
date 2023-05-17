@@ -18,9 +18,9 @@ if (age<=0){
 let w_Message=confirm("do you want to skip welcome? your loss..");
 
 if(w_Message && gender=="male"){
-    alert("welcome "+ g1 + N +" 3 more questions and we're done..");
+    alert("welcome "+ g1 + N +", 3 more questions and we're done..");
 }else if(w_Message && gender=="female"){
-    alert("welcome "+ g1 + N +" 3 more questions and we're done..");
+    alert("welcome "+ g1 + N +", 3 more questions and we're done..");
 }else if(w_Message){
     alert("welcome "+ N +", 3 more questions and we're done..");
 }
